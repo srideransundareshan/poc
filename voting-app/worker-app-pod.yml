@@ -9,5 +9,3 @@ spec:
   containers:
     - name: worker-app
       image: dockersamples/examplevotingapp_worker
-  nodeSelector:
-    node: node2
